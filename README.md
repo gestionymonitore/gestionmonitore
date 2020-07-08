@@ -1,2 +1,10 @@
 # gestionmonitore
-Repositorio para el area de gestion y monitoreo de Datacenter Claro Colombia
+# Test we can logon to 'webservers' and execute python with json lib.
+# ansible webservers -m ping
+
+# Example from an Ansible Playbook
+- ping:
+
+# Induce an exception to see what happens
+- ping:
+    data: crash
